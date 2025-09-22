@@ -1,0 +1,41 @@
+{
+  "name": "leitor-de-texto-simples",
+  "version": "1.0.0",
+  "description": "Chrome Extension that reads selected text aloud using the browser's built-in Text-to-Speech engine",
+  "main": "dist/background/background.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack --mode=development --watch",
+    "clean": "rm -rf dist",
+    "package": "npm run clean && npm run build && cd dist && zip -r ../leitor-de-texto-simples.zip ."
+  },
+  "keywords": [
+    "chrome-extension",
+    "text-to-speech",
+    "accessibility",
+    "tts",
+    "speech-synthesis",
+    "context-menu",
+    "typescript",
+    "productivity",
+    "reader"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.254",
+    "copy-webpack-plugin": "^11.0.0",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/leitor-de-texto-simples.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/leitor-de-texto-simples/issues"
+  },
+  "homepage": "https://github.com/yourusername/leitor-de-texto-simples#readme"
+}
