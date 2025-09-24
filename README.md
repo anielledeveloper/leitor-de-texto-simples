@@ -2,6 +2,8 @@
 
 Uma extensão do Chrome que permite ouvir qualquer texto selecionado em uma página web usando a funcionalidade de Text-to-Speech (TTS) nativa do navegador. A interação é simples e intuitiva através do menu de contexto do botão direito.
 
+![Screen](1.png)
+
 ## 🎯 Funcionalidades
 
 ### ✨ Leitura de Texto
